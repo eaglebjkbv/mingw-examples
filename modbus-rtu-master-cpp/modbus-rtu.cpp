@@ -93,7 +93,7 @@ int main(int argc, char **argv){
     if(portOK==false){
         strcat(portNr,"COM4");
     }
-    std::cout<<"Usage Example: modbus-master -n COM4 -b 9600 -d 8 -s 1 -p even"<<std::endl;
+    std::cout<<"Usage Example: modbus-rtu -n COM4 -b 9600 -d 8 -s 1 -p even"<<std::endl;
     std::cout<<"Modbus Master v1.1 CPP made by BV 2020";
     std::cout<<" for using Modbus RTU commands on command prompt."<<std::endl;
     std::cout<<"_______Settings_______\n";
