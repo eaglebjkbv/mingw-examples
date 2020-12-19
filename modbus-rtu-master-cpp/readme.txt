@@ -1,4 +1,4 @@
-modbus-master.exe -n com3 -b 38400 -p none -s 1 -b 8
+modbus-rtu.exe -n com3 -b 38400 -p none -s 1 -b 8
 -n : Port Name (COM1, COM2, COM3 ...)
 -b : Baudarte (4800,9600,19200,38400)
 -p : Parity (even, odd, none)
